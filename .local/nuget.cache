@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "XVViHhH4a8jQKD3wiiHabuGY2iVian8ZqxY+109c4XN06JYzL4RcXBqjy4tnG1GHqK/mlzHqQsIhnIszOxVSPw==",
-  "success": false,
+  "dgSpecHash": "V/uBa/xW1+tg8C7hZfF3+hdFplk/5B4ZmGgncYbkVuCKp5ETZl7V0bGq1M2cKwgAV4qg2EySBMzwnEzq4bO7hw==",
+  "success": true,
   "projectFilePath": "C:\\Users\\V150103\\OneDrive - NAV\\Documents\\UiPath\\StateMachineTemplate\\.local\\",
   "expectedPackageFiles": [
     "C:\\Users\\V150103\\.nuget\\packages\\aforge\\2.2.5\\aforge.2.2.5.nupkg.sha512",
@@ -75,17 +75,5 @@
     "C:\\Users\\V150103\\.nuget\\packages\\uipath.uiautomation.activities\\20.10.6\\uipath.uiautomation.activities.20.10.6.nupkg.sha512",
     "C:\\Users\\V150103\\.nuget\\packages\\uipath.vision\\2.2.0\\uipath.vision.2.2.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "filePath": "C:\\Users\\V150103\\OneDrive - NAV\\Documents\\UiPath\\StateMachineTemplate\\.local",
-      "message": "Unable to find package OT_Library. No packages exist with this id in source(s): Connect, Local, nuget.org, Official",
-      "libraryId": "OT_Library",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.6.1",
-        ".NETFramework,Version=v4.6.1/win10-x64"
-      ]
-    }
-  ]
+  "logs": []
 }

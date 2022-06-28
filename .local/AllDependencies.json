@@ -5194,7 +5194,6 @@
     ".NETFramework,Version=v4.6.1": [
       "Microsoft.Activities >= 1.0.1 <= 1.0.1",
       "Microsoft.Activities.Extensions >= 2.0.6.9 <= 2.0.6.9",
-      "OT_Library >= 1.0.3 <= 1.0.3",
       "UiPath.Excel.Activities >= 2.9.3 <= 2.9.3",
       "UiPath.Mail.Activities >= 1.9.3 <= 1.9.3",
       "UiPath.System.Activities >= 20.10.1 <= 20.10.1",
@@ -5225,11 +5224,6 @@
             "target": "Package",
             "version": "[2.0.6.9, 2.0.6.9]"
           },
-          "OT_Library": {
-            "include": "Runtime",
-            "target": "Package",
-            "version": "[1.0.3, 1.0.3]"
-          },
           "UiPath.Excel.Activities": {
             "include": "Runtime",
             "target": "Package",
@@ -5259,17 +5253,5 @@
         "#import": []
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1101",
-      "level": "Error",
-      "message": "Unable to find package OT_Library. No packages exist with this id in source(s): Connect, Local, nuget.org, Official",
-      "libraryId": "OT_Library",
-      "targetGraphs": [
-        ".NETFramework,Version=v4.6.1",
-        ".NETFramework,Version=v4.6.1/win10-x64"
-      ]
-    }
-  ]
+  }
 }

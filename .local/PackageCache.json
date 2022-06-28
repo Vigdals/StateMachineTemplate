@@ -28,14 +28,6 @@
     },
     {
       "Package": {
-        "Id": "OT_Library",
-        "Version": "[1.0.3]"
-      },
-      "Assemblies": [],
-      "Path": null
-    },
-    {
-      "Package": {
         "Id": "UiPath.Excel.Activities",
         "Version": "2.9.3"
       },

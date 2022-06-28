@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="2169.6,1080" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:o="clr-namespace:OT_Library;assembly=OT_Library" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sg="clr-namespace:System.Globalization;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="2044.8,1040" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sg="clr-namespace:System.Globalization;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="66">
       <x:String>System.Activities</x:String>
@@ -326,16 +326,15 @@
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                                 <Transition.To>
-                                  <State x:Name="__ReferenceID1" DisplayName="Final State" sap:VirtualizedContainerService.HintSize="420,424" sap2010:WorkflowViewState.IdRef="State_4" IsFinal="True">
+                                  <State x:Name="__ReferenceID1" DisplayName="Final State" sap:VirtualizedContainerService.HintSize="420,473.6" sap2010:WorkflowViewState.IdRef="State_4" IsFinal="True">
                                     <State.Entry>
-                                      <Sequence sap:VirtualizedContainerService.HintSize="375.2,310.4" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                                      <Sequence sap:VirtualizedContainerService.HintSize="375.2,360" sap2010:WorkflowViewState.IdRef="Sequence_16">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:KillProcess ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome" />
-                                        <o:WaitForEmptyOutlookOutbox sap:VirtualizedContainerService.HintSize="333.6,22.4" sap2010:WorkflowViewState.IdRef="WaitForEmptyOutlookOutbox_1" />
+                                        <ui:KillProcess ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="333.6,134.4" sap2010:WorkflowViewState.IdRef="KillProcess_1" ProcessName="chrome" />
                                         <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="333.6,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Process completed!&quot;]" />
                                       </Sequence>
                                     </State.Entry>
@@ -449,15 +448,15 @@
                         </sap:WorkflowViewStateService.ViewState>
                         <Transition.Condition>[transactionItem isnot Nothing and bool_ShouldStop = False]</Transition.Condition>
                         <Transition.To>
-                          <State x:Name="__ReferenceID4" DisplayName="Process Case" sap:VirtualizedContainerService.HintSize="133.6,61.6" sap2010:WorkflowViewState.IdRef="State_5">
+                          <State x:Name="__ReferenceID4" DisplayName="Process Case" sap:VirtualizedContainerService.HintSize="569.6,1436" sap2010:WorkflowViewState.IdRef="State_5">
                             <State.Entry>
-                              <Sequence sap:VirtualizedContainerService.HintSize="526,876" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                              <Sequence sap:VirtualizedContainerService.HintSize="524.8,1047.2" sap2010:WorkflowViewState.IdRef="Sequence_10">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke ProcessCase workflow" sap:VirtualizedContainerService.HintSize="484,112" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ProcessCase.xaml">
+                                <ui:InvokeWorkflowFile ContinueOnError="{x:Null}" DisplayName="Invoke ProcessCase workflow" sap:VirtualizedContainerService.HintSize="483.2,113.6" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="ProcessCase.xaml">
                                   <ui:InvokeWorkflowFile.Arguments>
                                     <OutArgument x:TypeArguments="s:Exception" x:Key="TechnicalException">[TechnicalException]</OutArgument>
                                     <OutArgument x:TypeArguments="ui:BusinessRuleException" x:Key="BusinessException">[BusinessException]</OutArgument>
@@ -466,40 +465,34 @@
                                     <InArgument x:TypeArguments="sg:CultureInfo" x:Key="ci">[ci]</InArgument>
                                   </ui:InvokeWorkflowFile.Arguments>
                                 </ui:InvokeWorkflowFile>
-                                <If Condition="[TechnicalException is Nothing AND BusinessException is Nothing]" sap:VirtualizedContainerService.HintSize="484,632" sap2010:WorkflowViewState.IdRef="If_3">
+                                <If Condition="[TechnicalException is Nothing AND BusinessException is Nothing]" sap:VirtualizedContainerService.HintSize="483.2,800.8" sap2010:WorkflowViewState.IdRef="If_3">
                                   <If.Then>
-                                    <Sequence sap:VirtualizedContainerService.HintSize="284,484" sap2010:WorkflowViewState.IdRef="Sequence_18">
+                                    <Sequence sap:VirtualizedContainerService.HintSize="416.8,612" sap2010:WorkflowViewState.IdRef="Sequence_18">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
-                                      <Sequence DisplayName="Logg til Excel" sap:VirtualizedContainerService.HintSize="242,114" sap2010:WorkflowViewState.IdRef="Sequence_19">
+                                      <Sequence DisplayName="Logg til Excel" sap:VirtualizedContainerService.HintSize="375.2,180.8" sap2010:WorkflowViewState.IdRef="Sequence_19">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <o:LoggTilExcel sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="LoggTilExcel_1" arr_logg_varabler="[{DateTime.Now.ToString(&quot;dd.MMMM_hh_mm_ss&quot;, ci), &quot;Suksessful&quot;}]">
-                                          <o:LoggTilExcel.filsti>
-                                            <InArgument x:TypeArguments="x:String">
-                                              <Literal x:TypeArguments="x:String" Value="" />
-                                            </InArgument>
-                                          </o:LoggTilExcel.filsti>
-                                        </o:LoggTilExcel>
+                                        <ui:ExcelWriteRange DataTable="{x:Null}" AddHeaders="False" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_3" SheetName="Sheet1" StartingCell="A1" />
                                       </Sequence>
-                                      <Sequence DisplayName="Set trans status and log to kibana" sap:VirtualizedContainerService.HintSize="242,238" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                      <Sequence DisplayName="Set trans status and log to kibana" sap:VirtualizedContainerService.HintSize="375.2,298.4" sap2010:WorkflowViewState.IdRef="Sequence_9">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                           </scg:Dictionary>
                                         </sap:WorkflowViewStateService.ViewState>
-                                        <ui:AddLogFields DisplayName="Add Log Fields" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="AddLogFields_2">
+                                        <ui:AddLogFields DisplayName="Add Log Fields" sap:VirtualizedContainerService.HintSize="283.2,22.4" sap2010:WorkflowViewState.IdRef="AddLogFields_2">
                                           <ui:AddLogFields.Fields>
                                             <scg:Dictionary x:TypeArguments="x:String, InArgument" />
                                           </ui:AddLogFields.Fields>
                                         </ui:AddLogFields>
-                                        <ui:SetTransactionStatus ContinueOnError="{x:Null}" Reason="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Business" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_2" Status="Successful" TransactionItem="[transactionItem]">
+                                        <ui:SetTransactionStatus ContinueOnError="{x:Null}" Reason="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Business" sap:VirtualizedContainerService.HintSize="283.2,80.8" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_2" Status="Successful" TransactionItem="[transactionItem]">
                                           <ui:SetTransactionStatus.Analytics>
                                             <scg:Dictionary x:TypeArguments="x:String, InArgument" />
                                           </ui:SetTransactionStatus.Analytics>
@@ -507,7 +500,7 @@
                                             <scg:Dictionary x:TypeArguments="x:String, InArgument" />
                                           </ui:SetTransactionStatus.Output>
                                         </ui:SetTransactionStatus>
-                                        <ui:RemoveLogFields DisplayName="Remove Log Fields" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="RemoveLogFields_2">
+                                        <ui:RemoveLogFields DisplayName="Remove Log Fields" sap:VirtualizedContainerService.HintSize="283.2,22.4" sap2010:WorkflowViewState.IdRef="RemoveLogFields_2">
                                           <ui:RemoveLogFields.Fields>
                                             <scg:List x:TypeArguments="InArgument(x:String)" Capacity="0" />
                                           </ui:RemoveLogFields.Fields>
@@ -551,9 +544,9 @@
                                 <Transition.To>
                                   <State x:Name="__ReferenceID5" DisplayName="Exception" sap:VirtualizedContainerService.HintSize="133.6,61.6" sap2010:WorkflowViewState.IdRef="State_7">
                                     <State.Entry>
-                                      <If Condition="[TechnicalException isnot Nothing]" DisplayName="If technical or not" sap:VirtualizedContainerService.HintSize="797,1178" sap2010:WorkflowViewState.IdRef="If_4">
+                                      <If Condition="[TechnicalException isnot Nothing]" DisplayName="If technical or not" sap:VirtualizedContainerService.HintSize="877.6,1322.4" sap2010:WorkflowViewState.IdRef="If_4">
                                         <If.Then>
-                                          <Sequence DisplayName="TechnicalException" sap:VirtualizedContainerService.HintSize="376,1030" sap2010:WorkflowViewState.IdRef="Sequence_13">
+                                          <Sequence DisplayName="TechnicalException" sap:VirtualizedContainerService.HintSize="416.8,1163.2" sap2010:WorkflowViewState.IdRef="Sequence_13">
                                             <Sequence.Variables>
                                               <Variable x:TypeArguments="ui:Image" Name="errorScreenshot" />
                                             </Sequence.Variables>
@@ -562,8 +555,8 @@
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Warn" Message="[&quot;Teknisk feil i PROSESS! Feilmelding: &quot; + TechnicalException.Message.ToString]" />
-                                            <Sequence DisplayName="Take Screenshot" sap:VirtualizedContainerService.HintSize="334,66" sap2010:WorkflowViewState.IdRef="Sequence_12">
+                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="375.2,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Warn" Message="[&quot;Teknisk feil i PROSESS! Feilmelding: &quot; + TechnicalException.Message.ToString]" />
+                                            <Sequence DisplayName="Take Screenshot" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_12">
                                               <Sequence.Variables>
                                                 <Variable x:TypeArguments="x:String" Name="dato" />
                                               </Sequence.Variables>
@@ -597,34 +590,28 @@
                                               <ui:SaveImage DisplayName="Save Image" FileName="[&quot;ErrorScreenshotFolder\&quot; +dato +&quot;.png&quot;]" sap:VirtualizedContainerService.HintSize="334,92" sap2010:WorkflowViewState.IdRef="SaveImage_3" Image="[errorScreenshot]" />
                                               <ui:SaveImage DisplayName="Save Image" FileName="ErrorScreenshotFolder\temp.png" sap:VirtualizedContainerService.HintSize="334,92" sap2010:WorkflowViewState.IdRef="SaveImage_4" Image="[errorScreenshot]" />
                                             </Sequence>
-                                            <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="[&quot;Feilmeldinga er: &quot; + technicalException.Message.ToString]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_2" IsBodyHtml="False" IsDraft="False" Subject="Feil i PROSESS" To="tone.setrenes.hellebust@nav.no; adrian.vigdal@nav.no">
+                                            <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="[&quot;Feilmeldinga er: &quot; + technicalException.Message.ToString]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="375.2,146.4" sap2010:WorkflowViewState.IdRef="SendOutlookMail_2" IsBodyHtml="False" IsDraft="False" Subject="Feil i PROSESS" To="tone.setrenes.hellebust@nav.no; adrian.vigdal@nav.no">
                                               <ui:SendOutlookMail.Files>
                                                 <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
                                                   <InArgument x:TypeArguments="x:String">ErrorScreenshotFolder\temp.png</InArgument>
                                                 </scg:List>
                                               </ui:SendOutlookMail.Files>
                                             </ui:SendOutlookMail>
-                                            <Sequence DisplayName="Logg til Excel" sap:VirtualizedContainerService.HintSize="334,114" sap2010:WorkflowViewState.IdRef="Sequence_20">
+                                            <Sequence DisplayName="Logg til Excel" sap:VirtualizedContainerService.HintSize="375.2,180.8" sap2010:WorkflowViewState.IdRef="Sequence_20">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <o:LoggTilExcel sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="LoggTilExcel_2" arr_logg_varabler="[{DateTime.Now.ToString(&quot;dd.MMMM_hh_mm_ss&quot;, ci), &quot;Failed med feilmelding: &quot; + TechnicalException.Message.ToString}]">
-                                                <o:LoggTilExcel.filsti>
-                                                  <InArgument x:TypeArguments="x:String">
-                                                    <Literal x:TypeArguments="x:String" Value="" />
-                                                  </InArgument>
-                                                </o:LoggTilExcel.filsti>
-                                              </o:LoggTilExcel>
+                                              <ui:ExcelWriteRange DataTable="{x:Null}" AddHeaders="False" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_1" SheetName="Sheet1" StartingCell="A1" />
                                             </Sequence>
-                                            <ui:AddLogFields DisplayName="Add Log Fields" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="AddLogFields_3">
+                                            <ui:AddLogFields DisplayName="Add Log Fields" sap:VirtualizedContainerService.HintSize="375.2,22.4" sap2010:WorkflowViewState.IdRef="AddLogFields_3">
                                               <ui:AddLogFields.Fields>
                                                 <InArgument x:TypeArguments="x:String" x:Key="TechincalException">[TechnicalException.Message]</InArgument>
                                                 <InArgument x:TypeArguments="x:String" x:Key="Status">Failed</InArgument>
                                               </ui:AddLogFields.Fields>
                                             </ui:AddLogFields>
-                                            <ui:SetTransactionStatus ContinueOnError="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Application" FolderPath="/OT" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_3" Reason="[TechnicalException.Message.ToString]" Status="Failed" TransactionItem="[transactionItem]">
+                                            <ui:SetTransactionStatus ContinueOnError="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Application" FolderPath="/OT" sap:VirtualizedContainerService.HintSize="375.2,80.8" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_3" Reason="[TechnicalException.Message.ToString]" Status="Failed" TransactionItem="[transactionItem]">
                                               <ui:SetTransactionStatus.Analytics>
                                                 <scg:Dictionary x:TypeArguments="x:String, InArgument" />
                                               </ui:SetTransactionStatus.Analytics>
@@ -652,7 +639,7 @@
                                           </Sequence>
                                         </If.Then>
                                         <If.Else>
-                                          <Sequence DisplayName="BusinessException" sap:VirtualizedContainerService.HintSize="376,1030" sap2010:WorkflowViewState.IdRef="Sequence_15">
+                                          <Sequence DisplayName="BusinessException" sap:VirtualizedContainerService.HintSize="416.8,1163.2" sap2010:WorkflowViewState.IdRef="Sequence_15">
                                             <Sequence.Variables>
                                               <Variable x:TypeArguments="ui:Image" Name="errorScreenshot" />
                                             </Sequence.Variables>
@@ -661,8 +648,8 @@
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
-                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="334,91" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Warn" Message="[&quot;Feil skjedd i PROSESS! Feilmelding: &quot; + BusinessException.Message.ToString]" />
-                                            <Sequence DisplayName="Take Screenshot" sap:VirtualizedContainerService.HintSize="334,66" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                                            <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="375.2,92.8" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Warn" Message="[&quot;Feil skjedd i PROSESS! Feilmelding: &quot; + BusinessException.Message.ToString]" />
+                                            <Sequence DisplayName="Take Screenshot" sap:VirtualizedContainerService.HintSize="375.2,68.8" sap2010:WorkflowViewState.IdRef="Sequence_14">
                                               <Sequence.Variables>
                                                 <Variable x:TypeArguments="x:String" Name="dato" />
                                               </Sequence.Variables>
@@ -696,34 +683,28 @@
                                               <ui:SaveImage DisplayName="Save Image" FileName="[&quot;ErrorScreenshotFolder\&quot; +dato +&quot;.png&quot;]" sap:VirtualizedContainerService.HintSize="334,92" sap2010:WorkflowViewState.IdRef="SaveImage_5" Image="[errorScreenshot]" />
                                               <ui:SaveImage DisplayName="Save Image" FileName="ErrorScreenshotFolder\temp.png" sap:VirtualizedContainerService.HintSize="334,92" sap2010:WorkflowViewState.IdRef="SaveImage_6" Image="[errorScreenshot]" />
                                             </Sequence>
-                                            <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="[&quot;Grunnen er: &quot; + BusinessException.Message.ToString]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="334,145" sap2010:WorkflowViewState.IdRef="SendOutlookMail_3" IsBodyHtml="False" IsDraft="False" Subject="Sak til manuell behandling i PROSESS" To="tone.setrenes.hellebust@nav.no; adrian.vigdal@nav.no">
+                                            <ui:SendOutlookMail Account="{x:Null}" Bcc="{x:Null}" Cc="{x:Null}" MailMessage="{x:Null}" TimeoutMS="{x:Null}" Body="[&quot;Grunnen er: &quot; + BusinessException.Message.ToString]" DisplayName="Send Outlook Mail Message" sap:VirtualizedContainerService.HintSize="375.2,146.4" sap2010:WorkflowViewState.IdRef="SendOutlookMail_3" IsBodyHtml="False" IsDraft="False" Subject="Sak til manuell behandling i PROSESS" To="tone.setrenes.hellebust@nav.no; adrian.vigdal@nav.no">
                                               <ui:SendOutlookMail.Files>
                                                 <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
                                                   <InArgument x:TypeArguments="x:String">ErrorScreenshotFolder\temp.png</InArgument>
                                                 </scg:List>
                                               </ui:SendOutlookMail.Files>
                                             </ui:SendOutlookMail>
-                                            <Sequence DisplayName="Logg til Excel" sap:VirtualizedContainerService.HintSize="334,114" sap2010:WorkflowViewState.IdRef="Sequence_21">
+                                            <Sequence DisplayName="Logg til Excel" sap:VirtualizedContainerService.HintSize="375.2,180.8" sap2010:WorkflowViewState.IdRef="Sequence_21">
                                               <sap:WorkflowViewStateService.ViewState>
                                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                                 </scg:Dictionary>
                                               </sap:WorkflowViewStateService.ViewState>
-                                              <o:LoggTilExcel sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="LoggTilExcel_3" arr_logg_varabler="[{DateTime.Now.ToString(&quot;dd.MMMM_hh_mm_ss&quot;, ci), &quot;Failed med feilmelding: &quot; + BusinessException.Message.ToString}]">
-                                                <o:LoggTilExcel.filsti>
-                                                  <InArgument x:TypeArguments="x:String">
-                                                    <Literal x:TypeArguments="x:String" Value="" />
-                                                  </InArgument>
-                                                </o:LoggTilExcel.filsti>
-                                              </o:LoggTilExcel>
+                                              <ui:ExcelWriteRange DataTable="{x:Null}" AddHeaders="False" DisplayName="Write Range" sap:VirtualizedContainerService.HintSize="333.6,88" sap2010:WorkflowViewState.IdRef="ExcelWriteRange_2" SheetName="Sheet1" StartingCell="A1" />
                                             </Sequence>
-                                            <ui:AddLogFields DisplayName="Add Log Fields" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="AddLogFields_4">
+                                            <ui:AddLogFields DisplayName="Add Log Fields" sap:VirtualizedContainerService.HintSize="375.2,22.4" sap2010:WorkflowViewState.IdRef="AddLogFields_4">
                                               <ui:AddLogFields.Fields>
                                                 <InArgument x:TypeArguments="x:String" x:Key="BusinessException">[BusinessException.Message]</InArgument>
                                                 <InArgument x:TypeArguments="x:String" x:Key="Status">Failed</InArgument>
                                               </ui:AddLogFields.Fields>
                                             </ui:AddLogFields>
-                                            <ui:SetTransactionStatus ContinueOnError="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Business" FolderPath="/OT" sap:VirtualizedContainerService.HintSize="334,22" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_4" Reason="[BusinessException.Message.ToString]" Status="Failed" TransactionItem="[transactionItem]">
+                                            <ui:SetTransactionStatus ContinueOnError="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Business" FolderPath="/OT" sap:VirtualizedContainerService.HintSize="375.2,80.8" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_4" Reason="[BusinessException.Message.ToString]" Status="Failed" TransactionItem="[transactionItem]">
                                               <ui:SetTransactionStatus.Analytics>
                                                 <scg:Dictionary x:TypeArguments="x:String, InArgument" />
                                               </ui:SetTransactionStatus.Analytics>
