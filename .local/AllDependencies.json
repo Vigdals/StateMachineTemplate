@@ -8971,8 +8971,8 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "StateMachineOTtemplate",
-      "projectName": "StateMachineOTtemplate",
+      "projectUniqueName": "StateMachineTemplate",
+      "projectName": "StateMachineTemplate",
       "projectPath": "C:\\github\\UiPath\\.local",
       "packagesPath": "C:\\Users\\adhvi\\.nuget\\packages\\",
       "outputPath": "C:\\github\\UiPath\\.local"
