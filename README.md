@@ -1,4 +1,4 @@
-<h3 align="center">State machine Template for ØT</h3>
+<h3 align="center">State machine Template for Adrian</h3>
 
 ## General info
 
@@ -11,16 +11,20 @@ Start process the 2nd time and it will not find grunnlagsdata and get cases from
 Use this and you will become a professional
 ```
 
+## Related
+
+* [project-name](#) - Project description
+
+## Maintainers
+
+* [Adrian](https://github.com/vigdals)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 
-
-Download the latest version from the the **[GitHub releases](https://github.com/jamieweavis/readme-template/releases)** page.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate leo elit, id pharetra urna hendrerit nec. Integer hendrerit turpis sapien, vel scelerisque risus fringilla ac.
-
-```sh
-$ echo 'lorem ipsum'
-```
+Get reading on the wiki! **[GitHub Wiki](https://github.com/Vigdals/StateMachineTemplate/wiki)** page.
 
 ## Usage
 
@@ -48,14 +52,3 @@ Type: `type`
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vulputate leo elit, id pharetra urna hendrerit nec.
 
-## Related
-
-* [project-name](#) - Project description
-
-## Maintainers
-
-* [Jamie Weavis](https://github.com/jamieweavis)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
